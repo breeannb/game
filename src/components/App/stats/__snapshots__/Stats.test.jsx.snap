@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stats component renders Stats 1`] = `
+<section>
+  <p>
+    HP: 
+  </p>
+  <p>
+    Attack: 
+  </p>
+  <p>
+    Defense: 
+  </p>
+  <p>
+    Magic: 
+  </p>
+  <p>
+    Strength: 
+  </p>
+  <p>
+    Items: 
+  </p>
+</section>
+`;
