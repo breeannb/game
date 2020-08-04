@@ -17,6 +17,8 @@ export const initialState = {
 
 export default function reducer(state, action) {
   switch(action.type){
+    case 'ATTACK_HAUNT': 
+      return { ...state, haunt: { ...state.haunt, speed: state.haunt.speed - state.character.speed } };
     default: 
       return state;
   }
