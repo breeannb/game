@@ -8,10 +8,10 @@ export const initialState = {
   }, 
   haunt: {
     image: 'https://cdn.gamer-network.net/2019/articles/2019-05-17-14-51/snag-the-horrifying-betrayal-at-house-on-the-hill-for-gbp26-1558101072196.jpg/EG11/thumbnail/1920x1077/format/jpg/quality/80',
-    speed: 8, 
-    might: 8, 
-    sanity: 8, 
-    knowledge: 8
+    speed: 100, 
+    might: 100, 
+    sanity: 100, 
+    knowledge: 100
   }
 }; 
 
