@@ -6,18 +6,18 @@ export const useState = () => {
   const { state } = useContext(GameContext);
   return state;
 };
-
+  
 export const useDispatch = () => {
   const { dispatch } = useContext(GameContext);
   return dispatch;
 };
-
+  
 export const useCharacter = () => {
-  const { character } = useContext(GameContext);
+  const { character } = useState();
   return character;
 };
-
+  
 export const useHaunt = () => {
-  const { haunt } = useContext(GameContext);
+  const { haunt } = useState();
   return haunt;
 };

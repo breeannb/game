@@ -4,7 +4,9 @@ import Character from './Character';
 import Stats from '../stats/Stats';
 
 const CharacterWithStats = ({ character }) => (
+  
   <section>
+    This is the StatsCharacter page
     <Character image={character.image} />
     <Stats
       speed={character.speed}
