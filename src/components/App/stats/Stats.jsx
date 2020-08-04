@@ -1,27 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Stats = ({ hp, attack, defense, magic, strength, items  }) => {
+const Stats = ({ speed, might, sanity, knowledge  }) => {
   return (
     <section>
-      <p>HP: {hp}</p>
-      <p>Attack: {attack}</p>
-      <p>Defense: {defense}</p>
-      <p>Magic: {magic}</p>
-      <p>Strength: {strength}</p>
-      <p>Items: {items}</p>
+      <p>Speed: {speed}</p>
+      <p>Might: {might}</p>
+      <p>Sanity: {sanity}</p>
+      <p>Knowledge: {knowledge}</p>
     </section>
   );
 };
 
 Stats.propTypes = {
-  hp: PropTypes.number.isRequired, 
-  attack: PropTypes.number.isRequired, 
-  defense: PropTypes.number.isRequired, 
-  magic: PropTypes.number.isRequired,
-  strength: PropTypes.number.isRequired,
-  items: PropTypes.number.isRequired,
-
+  speed: PropTypes.number.isRequired, 
+  might: PropTypes.number.isRequired, 
+  sanity: PropTypes.number.isRequired, 
+  knowledge: PropTypes.number.isRequired,
 };
 
 export default Stats;

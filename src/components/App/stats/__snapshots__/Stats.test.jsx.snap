@@ -3,22 +3,16 @@
 exports[`Stats component renders Stats 1`] = `
 <section>
   <p>
-    HP: 
+    Speed: 
   </p>
   <p>
-    Attack: 
+    Might: 
   </p>
   <p>
-    Defense: 
+    Sanity: 
   </p>
   <p>
-    Magic: 
-  </p>
-  <p>
-    Strength: 
-  </p>
-  <p>
-    Items: 
+    Knowledge: 
   </p>
 </section>
 `;
