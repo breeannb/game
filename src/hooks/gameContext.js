@@ -11,3 +11,13 @@ export const useDispatch = () => {
   const { dispatch } = useContext(GameContext);
   return dispatch;
 };
+
+export const useCharacter = () => {
+  const { character } = useContext(GameContext);
+  return character;
+};
+
+export const useHaunt = () => {
+  const { haunt } = useContext(GameContext);
+  return haunt;
+};
